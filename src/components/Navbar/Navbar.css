@@ -1,0 +1,90 @@
+/* 
+     === Navbar === | 
+    Navbar Jellypoli
+    Start navbar style
+*/
+.my_navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 24px 0 0;
+}
+
+.logo-wrapper {
+  align-self: center;
+}
+
+.logo-wrapper img {
+  width: 100px;
+  margin-top: 12px;
+}
+
+.hamburger-menu {
+  align-self: center;
+  justify-self: end;
+}
+
+.hamburger-menu img {
+  min-width: 44px;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* Responsive */
+/* Tablet Mode */
+@media screen and (min-width: 768px) {
+  /* Navbar */
+  .my_navbar {
+    margin: 0 100px 0 80px;
+  }
+
+  .logo-wrapper > img {
+    width: 120px;
+  }
+  /* End Navbar */
+}
+
+/* 
+       === Navbar === | 
+      Navbar Jellypoli
+      End navbar Style
+  */

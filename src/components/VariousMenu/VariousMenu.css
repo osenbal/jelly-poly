@@ -1,0 +1,255 @@
+/* Explore Menus */
+.sub-heading {
+  color: #f3feb0;
+  margin: 0 16px;
+}
+
+.title-explore-menus {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.title-explore-menus span {
+  color: #705e78;
+}
+
+.sub-heading p {
+  font-size: 1em;
+}
+
+.menu-series {
+  border: 2px solid #705e78;
+  color: #f3feb0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.menu-series:hover {
+  background-color: #705e78;
+}
+
+.menu-series:active {
+  background-color: #705e78;
+}
+
+.button-show-more-explore {
+  color: #f3feb0;
+  border: 2px solid #705e78;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-weight: 700;
+  text-align: center;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.button-show-more-explore:hover {
+  background-color: #705e78;
+}
+/* end Explore Menus */
+
+/* Carousel-1 Explore Our Menu*/
+.my-carousel-1 {
+  margin: 42px 7%;
+}
+
+.owl-carousel {
+  position: relative;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  opacity: 1;
+  font-size: 48px !important;
+  z-index: 1;
+}
+
+.owl-nav .owl-prev {
+  position: absolute !important;
+  top: 45%;
+  left: 0;
+  opacity: 1;
+  font-size: 48px !important;
+  z-index: 1;
+}
+
+.item-carousel-1 {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.item-carousel-1 .item-image {
+  transition: all 0.5s ease;
+}
+
+.item-carousel-1:hover .middle-text-carousel {
+  opacity: 1;
+}
+
+.item-carousel-1:hover .item-image {
+  transform: scale(1.3);
+  filter: blur(0.7px);
+}
+
+.middle-text-carousel {
+  background-color: rgba(238, 238, 238, 0.8);
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #705e78;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* modal */
+.modal {
+  background-color: #705e78;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  max-height: 100%;
+  overflow: auto;
+}
+.modal_overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.heading-modal h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #f3feb0;
+}
+.price-detail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f3feb0;
+}
+.description-detail p {
+  color: #f3feb0;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+}
+.list-online-order li {
+  width: 100%;
+}
+.list-online-order li a {
+  text-align: center;
+  display: block;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f3feb0;
+  border: 2px solid #fea443;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+}
+.wrap-detail-img {
+  max-width: 600px;
+  max-height: 356px;
+}
+
+/* modal */
+
+.shape-comment {
+  position: absolute;
+  right: 10px;
+  bottom: 70px;
+  z-index: 2;
+}
+/* Carousel-1 */
+
+/* Responsive */
+/* Tablet Mode */
+@media screen and (min-width: 768px) {
+  /* Explore our menu */
+  .title-explore-menus {
+    font-size: 5em;
+  }
+
+  .sub-heading p {
+    font-size: 1.875em;
+  }
+  .menu-series {
+    font-size: 1.5em;
+  }
+  .button-show-more-explore {
+    font-size: 1.5em;
+  }
+  .heading-comment h2 {
+    font-size: 5em;
+  }
+  .heading-comment h2 span {
+    color: #705e78;
+  }
+  .heading-comment p {
+    font-size: 1.5em;
+  }
+  /* Carousel-1 */
+  .modal {
+    max-width: 600px;
+  }
+  .heading-modal h3 {
+    font-size: 30px;
+  }
+  .price-detail {
+    font-size: 24px;
+  }
+
+  /* .modal {
+    z-index: 999;
+    transition: opacity 0.25s ease;
+    transform: scale(1.5);
+  } */
+  /* .btn-close-modal {
+    margin-top: -55px !important;
+    margin-right: -14px !important;
+  } */
+  .shape-comment {
+    left: 15px;
+    bottom: 100px;
+  }
+  /* End Carousel-1 */
+  /* End Explore Our Menu */
+}
+
+/* Desktop Mode */
+@media screen and (min-width: 1080px) {
+  /* Main Content */
+  .title-explore-menus {
+    font-size: 5.625em;
+  }
+  .modal {
+    max-width: 730px;
+  }
+  /* End Main Content */
+}

@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Coklat Mangga",
+      "category": "choco series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 2,
+      "name": "Coklat Jeruk",
+      "category": "choco series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 3,
+      "name": "Coklat Straubery",
+      "category": "choco series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 4,
+      "name": "Yakult Jeruk",
+      "category": "yakult series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 5,
+      "name": "Yakult Mangga",
+      "category": "yakult series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 6,
+      "name": "Yakult Straubery",
+      "category": "yakult series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 7,
+      "name": "Special Jeruk",
+      "category": "special series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 8,
+      "name": "Special Mangga",
+      "category": "special series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    },
+    {
+      "id": 9,
+      "name": "Special Straubery",
+      "category": "special series",
+      "pngUrl": "./img/Menu.png",
+      "webpUrl": "./img/Menu.webp"
+    }
+  ]
+}

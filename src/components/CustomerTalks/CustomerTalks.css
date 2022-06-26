@@ -1,0 +1,76 @@
+/* Review Section */
+.background-kuning2 {
+  opacity: 0;
+  position: absolute;
+  z-index: -99;
+  top: -150px;
+  left: -100px;
+  width: 600px;
+  height: 450px;
+}
+
+.customer-review {
+  position: relative;
+  margin: 56px 7%;
+}
+
+.carousel-customer-review .list-reviews .item-review-1 {
+  margin-top: 70px;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  right: 25%;
+}
+
+.heading-comment h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  color: #f3feb0;
+}
+
+.heading-comment h2 span {
+  color: #705e78;
+}
+
+.heading-comment p {
+  font-size: 1.5em;
+  color: #f3feb0;
+}
+
+/* Review Section */
+
+/* Responsive */
+/* Tablet Mode */
+@media screen and (min-width: 768px) {
+  /* Customer Review */
+  .background-kuning2 {
+    opacity: 1;
+    top: -100px;
+    height: 600px;
+    left: -250px;
+  }
+  .heading-comment h2 {
+    font-size: 5.5em;
+  }
+  .heading-comment p {
+    font-size: 30px;
+  }
+  /* Customer Review */
+}
+
+/* Large Tablet Mode */
+@media screen and (min-width: 986px) {
+  /* Customer Review */
+  .customer-review {
+    margin: 150px 7%;
+  }
+  /* End Customer Review */
+}

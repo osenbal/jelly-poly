@@ -1,0 +1,43 @@
+/* 
+     === FOOTER === | 
+    Footer Jellypoli
+    Start Footer Style Style
+*/
+footer {
+  margin: auto 11.5%;
+}
+.navigation-footer .list-navigation li a {
+  display: inline-block;
+  min-height: 44px;
+  min-width: 44px;
+}
+.navigation-footer .list-navigation li a::content {
+  margin: auto;
+}
+.content-footer {
+  color: #f3feb0;
+  text-align: center;
+}
+.content-footer .description-footer p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.content-footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.link-sosial-media a {
+  min-width: 44px;
+  min-height: 44px;
+}
+/* 
+       === FOOTER === | 
+      Footer Jellypoli
+      End Footer Style Style
+  */
+
+@media screen and (min-width: 1080px) {
+  .content-footer {
+    text-align: left;
+  }
+}
